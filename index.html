@@ -1,9 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <!-- escreva seu codigo aqui -->
-  </body>
+
+<head>
+  <title>Create an Account</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="img">
+        <img class="imagem" src="pug.png" alt="cachorro">
+      </div>
+      <div class="form">
+        <div class="titulo">
+          <h1>Create an Account!</h1>
+        </div>
+        <div class="info">
+          <div class="row">
+            <span class="input-box">
+              <input id="name" type="text" name="First name" class="input" placeholder="First Name">
+            </span>
+            <span class="input-box">
+              <input id="phone" type="number" name="phone" class="input" placeholder="Phone">
+            </span>
+          </div>
+          <div class="row">
+            <span class="input-box">
+              <input id="email" type="text" name="email" class="input" placeholder="Email Address">
+            </span>
+          </div>
+          <div class="row">
+            <span class="input-box">
+              <input id="senha1" type="password" name="password" class="input" placeholder="Password">
+            </span>
+            <span class="input-box">
+              <input id="senha2" type="password" name="repeat password" class="input" placeholder="Repeat Password">
+            </span>
+          </div>
+          <div class="row">
+            <a href="#" class="button subimit-button" onclick="validarSenha();formulario();">Register Account</a>
+          </div>
+          <hr>
+          <div class="row">
+            <a href="https://www.google.com.br/" class="button google-button">
+              <i class="mdi mdi-google"></i>
+              Register with Google</a>
+          </div>
+          <div class="row">
+            <a href="https://pt-br.facebook.com/" class="button facebook-button">
+              <i class="mdi mdi-facebook"></i>
+              Register with Facebook</a>
+          </div>
+          <hr>
+          <div class="info is-center">
+            <a class="text-format" href="#">Forgot Password?</a>
+            <a class="text-format" href="#">Already have an account? Login!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src = "./index.js" >
+  </script>
+</body>
+
 </html>

@@ -1,3 +1,107 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
 body {
-  margin: 80px;
+  box-sizing: border-box;
+  background-color:#0366d6;
+  margin: 20px 80px;
+}
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  width: 100%;
+  border-color: #e5e5e5;
+}
+
+.container{
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.img{
+  flex: 0;
+  overflow: hidden;
+  background-color: #edb506;
+  position: relative;
+  flex-basis: 40%;
+}
+
+.imagem{
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-format {
+  padding: 6px; 
+  color: #506cb5;
+}
+
+.input-box{
+  flex: 1;
+  margin: .5em;
+}
+
+.form{
+  flex: 1;
+  background-color: #fff;
+  text-align: center;
+  width: auto;
+  padding: 3em;
+
+}
+
+.input{
+  border-radius: 30px;
+  width: 100%;
+  padding: 0.75em 0 0.75em 0.5em;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.button{
+  padding: 0.60em;
+  border-radius: 20px;
+  flex: 1;
+  margin: 0.50em;
+  text-decoration: none;
+}
+
+.is-center{
+text-align: center;
+}
+
+.is-center a {
+  flex: 1;
+}
+
+.subimit-button {
+background-color: #4e73de ;
+color: white;
+}
+
+.facebook-button {
+  background-color:  #3b5999;
+  color: white;
+}
+
+.google-button {
+  background-color:  #ea4237;
+  color: white;
 }
